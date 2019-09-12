@@ -2,7 +2,7 @@ body {
     background: rgb(181, 230, 235);
 }
 
-#title {
+h1 {
     text-align: center;
     margin-top: 30px;
 }
@@ -14,11 +14,12 @@ main {
     margin-top: 100px;
 }
 
-#description {
+.description {
     text-align: center;
     padding: 30px;
 }
 
-#survey-form {
+.survey-form {
+    margin: 0 auto;
     text-align: center;
 }

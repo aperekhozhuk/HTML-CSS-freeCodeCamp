@@ -7,16 +7,16 @@
     <body>
         <h1 id="title">Survey Form</h1>
         <main>
-            <p id="description">Let us know how we can improve freeCodeCamp</p>
-            <form id="survey-form">
+            <p id="description" class="description">Let us know how we can improve freeCodeCamp</p>
+            <form id="survey-form" action="/" class="survey-form">
                 <label id="name-label" for="name">* Name:</label>
-                <input id="name" type="text" placeholder="Enter your name">
+                <input id="name" type="text" placeholder="Enter your name" required>
                 <br>
                 <label id="email=label" for="email">* Email:</label>
-                <input id="email" type="email" placeholder="Enter your email">
+                <input id="email" type="email" placeholder="Enter your email" required>
                 <br>
                 <label id="age-label" for="number">* Age:</label>
-                <input id="number" type="number" min="1" max="125" placeholder="Age">
+                <input id="number" type="number" min="1" max="125" placeholder="Age" required>
                 <br>
                 * Which option best describes your current role?
                 <select id="dropdown1" name="role">
@@ -53,9 +53,9 @@
                  <input type="checkbox" name="improvs" value="forum">Forum<br>
                  <input type="checkbox" name="improvs" value="add-courses">Additional Courses<br>
                  Any Comments or Suggestions?
-                 <textarea name="comment" placeholder="Enter your comment here"></textarea>
+                 <textarea name="comment" placeholder="Enter your comment here"></textarea><br>
+                 <input type="submit" value="Submit">
             </form>
-            <input type="submit" value="Submit">
         </main>
     </body>
 </html>

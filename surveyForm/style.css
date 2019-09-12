@@ -23,3 +23,24 @@ main {
     margin: 0 auto;
     text-align: center;
 }
+
+label, .input {  
+    display: inline-block;
+    box-sizing: border-box;
+    width: 46%;
+    vertical-align: text-top;
+    margin:auto;
+}
+
+label {
+    text-align: right;
+}
+
+.input, input {
+    text-align: left;
+}
+
+.cb {
+    margin: auto;
+}
+ 

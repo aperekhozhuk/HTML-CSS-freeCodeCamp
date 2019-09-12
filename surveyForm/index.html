@@ -9,52 +9,66 @@
         <main>
             <p id="description" class="description">Let us know how we can improve freeCodeCamp</p>
             <form id="survey-form" action="/" class="survey-form">
-                <label id="name-label" for="name">* Name:</label>
-                <input id="name" type="text" placeholder="Enter your name" required>
-                <br>
-                <label id="email=label" for="email">* Email:</label>
-                <input id="email" type="email" placeholder="Enter your email" required>
-                <br>
-                <label id="age-label" for="number">* Age:</label>
-                <input id="number" type="number" min="1" max="125" placeholder="Age" required>
-                <br>
-                * Which option best describes your current role?
-                <select id="dropdown1" name="role">
-                    <option value="Student">Student</option>
-                    <option value="Full Time Job">Full Time Job</option>
-                    <option value="Full Time Learner">Full Time Learner"</option>
-                    <option value="Prefer not say">Prefer not say</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br>
-                * How likely is that you would recommend freeCodeCamp to a friend?
-                <br> 
-                <input  name="decision" type="radio" value="2">Definetaly<br>
-                <input name="decision" type="radio" value="1">Maybe<br>
-                <input name="decision" type="radio" value="0">Not sure<br>
-                What do you like most in FCC:
-                <select id="dropdown2" name="favorite">
-                    <option value="challenges">Challenges</option>
-                    <option value="projects">Projects</option>
-                    <option value="community">Community</option>
-                    <option value="opensource">Open Source</option>
-                 </select>
-                 <br>
-                 Things that should be improved in the future (Check all that apply):
-                 <input type="checkbox" name="improvs" value="front-end">Front-end Projects<br>
-                 <input type="checkbox" name="improvs" value="back-end">Back-end Projects<br>
-                 <input type="checkbox" name="improvs" value="data-vis">Data Visualization<br>
-                 <input type="checkbox" name="improvs" value="challenges">Challenges<br>
-                 <input type="checkbox" name="improvs" value="open-source-community">Open Source Community <br>
-                 <input type="checkbox" name="improvs" value="gitter=helper-rooms">Gitter help rooms <br>
-                 <input type="checkbox" name="improvs" value="videos">Videos <br>
-                 <input type="checkbox" name="improvs" value="city-meetups">City Meetups <br>
-                 <input type="checkbox" name="improvs" value="wiki">Wiki <br>
-                 <input type="checkbox" name="improvs" value="forum">Forum<br>
-                 <input type="checkbox" name="improvs" value="add-courses">Additional Courses<br>
-                 Any Comments or Suggestions?
-                 <textarea name="comment" placeholder="Enter your comment here"></textarea><br>
-                 <input type="submit" value="Submit">
+                <div>
+                    <label id="name-label" for="name">* Name:</label>
+                    <input id="name" type="text" class="input" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label id="email=label" for="email">* Email:</label>
+                    <input id="email" type="email" class="input" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label id="age-label" for="number">* Age:</label>
+                    <input id="number" class="input" type="number" min="1" max="125" placeholder="Age" required>
+                </div>
+                <div>
+                    <label>* Which option best describes your current role?</label>
+                    <select id="dropdown1" class="input" name="role">
+                        <option value="Student">Student</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner"</option>
+                        <option value="Prefer not say">Prefer not say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <div class="input">
+                        <input  name="decision" type="radio" value="2">Definetaly<br>
+                        <input name="decision" type="radio" value="1">Maybe<br>
+                        <input name="decision" type="radio" value="0">Not sure<br>
+                    </div>
+                </div>
+                <div>
+                    <label>What do you like most in FCC:</label>
+                    <select id="dropdown2" class="input" name="favorite">
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="opensource">Open Source</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Things that should be improved in the future (Check all that apply):</label>
+                    <div class="input">
+                        <div class="cb"><input type="checkbox" name="improvs" value="front-end">Front-end Projects</div>                   
+                        <div class="cb"><input type="checkbox" name="improvs" value="back-end">Back-end Projects</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="data-vis">Data Visualization</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="challenges">Challenges</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="open-source-community">Open Source Community</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="gitter=helper-rooms">Gitter help rooms</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="videos">Videos</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="city-meetups">City meetups</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="wiki">Wiki</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="forum">Forum</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="add-courses">Additional Courses</div>
+                    </div>
+                </div>
+                <div>
+                    <label>Any Comments or Suggestions?</label>
+                    <textarea name="comment" class="input" placeholder="Enter your comment here"></textarea><br>
+                </div>
+                <input type="submit" value="Submit">
             </form>
         </main>
     </body>

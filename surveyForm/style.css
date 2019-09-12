@@ -9,7 +9,7 @@ h1 {
 
 main {
     background: white;
-    width: 60%;
+    width: 55%;
     margin: auto;
     margin-top: 100px;
 }
@@ -22,25 +22,38 @@ main {
 .survey-form {
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 4.5em;
 }
 
-label, .input {  
+div {
+    margin: 0px 0px 10px 0px; 
+}
+
+label, .input {
     display: inline-block;
     box-sizing: border-box;
-    width: 46%;
+    width: 49%;
+    margin: 0% 0% 1% 0%;
     vertical-align: text-top;
-    margin:auto;
 }
 
 label {
     text-align: right;
+    padding-right: 2%;
 }
 
 .input, input {
     text-align: left;
+    border-radius: 0.1em;
+    padding: 0.5em;
 }
 
-.cb {
-    margin: auto;
+textarea {
+    height:5em;
 }
  
+.submit-btn {
+    background-color: #59ace0;
+    border-radius: 0.5em;
+    padding: 1em 2em 1em 2em;
+}

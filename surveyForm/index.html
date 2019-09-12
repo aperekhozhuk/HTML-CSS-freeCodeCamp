@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <main>
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+            <form id="survey-form">
+                <label id="name-label" for="name">* Name:</label>
+                <input id="name" type="text" placeholder="Enter your name">
+                <br>
+                <label id="email=label" for="email">* Email:</label>
+                <input id="email" type="email" placeholder="Enter your email">
+                <br>
+                <label id="age-label" for="number">* Age:</label>
+                <input id="number" type="number" min="1" max="125" placeholder="Age">
+                <br>
+                * Which option best describes your current role?
+                <select id="dropdown1" name="role">
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner"</option>
+                    <option value="Prefer not say">Prefer not say</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                * How likely is that you would recommend freeCodeCamp to a friend?
+                <br> 
+                <input  name="decision" type="radio" value="2">Definetaly<br>
+                <input name="decision" type="radio" value="1">Maybe<br>
+                <input name="decision" type="radio" value="0">Not sure<br>
+                What do you like most in FCC:
+                <select id="dropdown2" name="favorite">
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="opensource">Open Source</option>
+                 </select>
+                 <br>
+                 Things that should be improved in the future (Check all that apply):
+                 <input type="checkbox" name="improvs" value="front-end">Front-end Projects<br>
+                 <input type="checkbox" name="improvs" value="back-end">Back-end Projects<br>
+                 <input type="checkbox" name="improvs" value="data-vis">Data Visualization<br>
+                 <input type="checkbox" name="improvs" value="challenges">Challenges<br>
+                 <input type="checkbox" name="improvs" value="open-source-community">Open Source Community <br>
+                 <input type="checkbox" name="improvs" value="gitter=helper-rooms">Gitter help rooms <br>
+                 <input type="checkbox" name="improvs" value="videos">Videos <br>
+                 <input type="checkbox" name="improvs" value="city-meetups">City Meetups <br>
+                 <input type="checkbox" name="improvs" value="wiki">Wiki <br>
+                 <input type="checkbox" name="improvs" value="forum">Forum<br>
+                 <input type="checkbox" name="improvs" value="add-courses">Additional Courses<br>
+                 Any Comments or Suggestions?
+                 <textarea name="comment" placeholder="Enter your comment here"></textarea>
+            </form>
+            <input type="submit" value="Submit">
+        </main>
+    </body>
+</html>

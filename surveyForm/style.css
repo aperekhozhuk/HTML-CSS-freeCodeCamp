@@ -1,0 +1,24 @@
+body {
+    background: rgb(181, 230, 235);
+}
+
+#title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main {
+    background: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#description {
+    text-align: center;
+    padding: 30px;
+}
+
+#survey-form {
+    text-align: center;
+}

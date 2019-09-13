@@ -12,7 +12,9 @@ a {
 h1 {
     text-align: center;
 }
-
+.fa {
+    color: orange; 
+}
 /*   for debug*/
 
 header {
@@ -30,7 +32,7 @@ nav {
 }
 header, nav {
     display: flex;
-    flex: 50%;i
+    flex: 50%;
 }
 header  img {
     align-self: center;
@@ -47,6 +49,19 @@ nav {
 .links {
     display: flex;
     flex-direction: row;
+}
+.index-form > .email-input, .index-form > .submit {
+    display: flex;
+    margin: auto;
+}
+.spec {
+    display: flex;
+}
+.spec-icon {
+    width: 20vw;
+}
+.spec-description {
+    width: 80vw;
 }
 @media (max-width: 650px) {
     //header img {

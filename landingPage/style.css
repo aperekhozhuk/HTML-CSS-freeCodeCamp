@@ -1,0 +1,146 @@
+
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+.embed-container { 
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+
+/*   PAGE CONSTRUCTION */
+
+.top {
+    width: 100%; 
+    border: 1px solid blue;
+    overflow-y: auto;
+}
+
+
+
+header {
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+
+nav {
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+
+nav .links  {
+    float: right;
+}
+
+.links a {
+
+}
+
+.logo-img {
+    width: 50%;
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.index-form input {
+    margin: auto;
+    display:block;
+    margin-top: 15px;
+}
+
+.index-form .submit {
+    background-color: yellow;
+    border-radius: 3px;
+    padding: 6px 10px 6px 10px;
+}
+
+.yt-video {
+    margin: 20px auto 20px auto;
+    width: 30%;
+}
+
+
+
+.items {
+    display: flex;
+    width: 61%;
+    margin: 20px auto 20px auto;
+    overflow-y: auto;
+}
+
+.item {
+    flex: 1;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin: 1%;
+}
+
+.item-name, .item-price {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.item-name {
+    background: gray;
+}
+
+.item-specs {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.item-select {
+    display: block;
+    margin: 20px auto 20px auto;
+    background: yellow;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.about {
+
+}
+
+.spec {
+    
+}
+
+.spec-icon {
+
+}
+
+.fa {
+    color: orange;
+}
+
+.spec-description {
+
+}
+
+
+footer {
+    background: grey;
+    width: 61%;
+    margin: auto;
+}
+

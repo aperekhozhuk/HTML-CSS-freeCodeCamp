@@ -11,25 +11,33 @@
             <form id="survey-form" action="/" class="survey-form">
                 <div>
                     <label id="name-label" for="name">* Name:</label>
-                    <input id="name" type="text" class="input" placeholder="Enter your name" required>
+                    <div class="input">
+                        <input id="name" class="field" type="text" placeholder="Enter your name" required>
+                    </div>
                 </div>
                 <div>
                     <label id="email=label" for="email">* Email:</label>
-                    <input id="email" type="email" class="input" placeholder="Enter your email" required>
+                    <div class="input">
+                        <input id="email"  class="field" type="email"  placeholder="Enter your email" required>
+                    </div>
                 </div>
                 <div>
                     <label id="age-label" for="number">* Age:</label>
-                    <input id="number" class="input" type="number" min="1" max="125" placeholder="Age" required>
+                    <div class="input">
+                        <input id="number" class="field" type="number" min="1" max="125" placeholder="Age" required>
+                    </div>
                 </div>
                 <div>
                     <label>* Which option best describes your current role?</label>
-                    <select id="dropdown1" class="input" name="role">
-                        <option value="Student">Student</option>
-                        <option value="Full Time Job">Full Time Job</option>
-                        <option value="Full Time Learner">Full Time Learner"</option>
-                        <option value="Prefer not say">Prefer not say</option>
-                        <option value="Other">Other</option>
-                    </select>
+                    <div class="input select">
+                        <select id="dropdown1" name="role">
+                            <option value="Student">Student</option>
+                            <option value="Full Time Job">Full Time Job</option>
+                            <option value="Full Time Learner">Full Time Learner"</option>
+                            <option value="Prefer not say">Prefer not say</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
                 </div>
                 <div>
                     <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
@@ -41,12 +49,15 @@
                 </div>
                 <div>
                     <label>What do you like most in FCC:</label>
-                    <select id="dropdown2" class="input" name="favorite">
-                        <option value="challenges">Challenges</option>
-                        <option value="projects">Projects</option>
-                        <option value="community">Community</option>
-                        <option value="opensource">Open Source</option>
-                    </select>
+                    <div class="input select">
+                        <select id="dropdown2" name="favorite">
+                            <option value="" disabled selected>Select your option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="projects">Projects</option>
+                            <option value="community">Community</option>
+                            <option value="opensource">Open Source</option>
+                        </select>
+                    </div>
                 </div>
                 <div>
                     <label>Things that should be improved in the future (Check all that apply):</label>

@@ -11,7 +11,7 @@ main {
     background: white;
     width: 55%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .description {
@@ -23,6 +23,7 @@ main {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 4.5em;
+    width: 85%;
 }
 
 div {
@@ -44,14 +45,27 @@ label {
 
 .input, input {
     text-align: left;
-    border-radius: 0.1em;
-    padding: 0.5em;
+    border-radius: 0.15em; 
 }
 
+input {
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.field {
+    width: 70%;
+    padding: 5px;
+}
 textarea {
-    height:5em;
+    height: 6em;
 }
  
+select {
+    padding: 5px;
+    background: rgb(222, 218, 217);
+}
+
 .submit-btn {
     background-color: #59ace0;
     border-radius: 0.5em;
